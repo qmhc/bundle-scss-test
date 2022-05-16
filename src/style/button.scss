@@ -1,0 +1,16 @@
+@use './vars.scss';
+
+.button {
+  color: var(--color-primary);
+
+  // toggle this style
+  // option 1. comment out following style
+  // option 2. change the value to `opacity: 0.6`
+  &--m1 &__el {
+    opacity: 60%;
+  }
+
+  &--m2 &__el {
+    opacity: 60%;
+  }
+}
