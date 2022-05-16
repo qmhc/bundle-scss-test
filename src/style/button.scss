@@ -10,6 +10,13 @@
     opacity: 60%;
   }
 
+  // option 3. add a hover state selector also bundled twice
+  // &--m1 &__el {
+  //   &:hover {
+  //     opacity: 60%;
+  //   }
+  // }
+
   &--m2 &__el {
     opacity: 60%;
   }
